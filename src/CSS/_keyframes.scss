@@ -2,6 +2,7 @@
 
 // Keyframes för animeringar.
 
+// Kvadrat som blir en cirkel.
 @keyframes circle {
     0% {
         background-color: $primary-color;
@@ -13,6 +14,7 @@
     }
 }
 
+// Text inuti cirkel/kvadrat.
 @keyframes text {
     0% {
         color: $primary-color;
@@ -24,12 +26,14 @@
     }
 }
 
+// Färghjul som snurrar vid hover.
 @keyframes wheel {
     100% {
         transform: rotate(360deg);
     }
 }
 
+// Chokladpralin som rör sig på sidan.
 @keyframes choco {
     0% {
         left: 40%;
