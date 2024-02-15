@@ -1,0 +1,51 @@
+@use 'base' as *;
+
+// Keyframes för animeringar.
+
+@keyframes circle {
+    0% {
+        background-color: $primary-color;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: $secondary-color;
+    }
+}
+
+@keyframes text {
+    0% {
+        color: $primary-color;
+    }
+
+    100% {
+        color: $primary-color;
+        text-shadow: 3px 2px 5px $black;
+    }
+}
+
+@keyframes wheel {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes choco {
+    0% {
+        left: 40%;
+        top: 60%;
+        transform: rotate(90deg);
+    }
+
+    50% {
+        left: 60%;
+        top: 50%;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        left: 40%;
+        top: 60%;
+        transform: rotate(90deg);
+    }
+}
